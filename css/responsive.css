@@ -1,0 +1,425 @@
+/* Extra small devices (phones, 600px and down) */
+  @media screen and (min-width: 350px) and (max-width: 599px) {
+    .header-section{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .left-content{
+        width: 100%;
+        float: none;
+        padding-top: 170px;
+        text-align: center;
+    }
+
+
+
+    .left-content h1{
+        font-size: 30px;
+        font-weight: 800;
+        padding-left: 20px;
+    }
+    
+    .left-content a{
+        margin-left: 20px;
+    }
+    
+    .right-content{
+        display: none;
+    }
+    
+    
+    
+    .project-content{
+        width: 100%;
+        float: none;
+    }
+
+    .item{
+        margin: 20px auto;
+        float: none;
+        width: 80%;
+        height: 330px;
+        
+    }
+
+    .item-img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .item-img img{
+        width: 100%;
+        height: 200px;
+    }
+
+    .item-title{
+        width: 95%;
+    }
+    
+    
+    .item-footer{
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    
+    .item-btn{
+        width: 40%;
+        height: 40px;
+        padding-left: 25px;
+        float: right;
+
+    }
+
+    .item-btn a{
+        background-color: #23c6f2;
+        color: #fff;
+        font-family: 'Recursive', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 20px;
+    }
+    
+    
+
+    
+.pnpage{
+    width: 100%;
+    height: 60px;
+}
+
+.pnpage ul{
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+}
+
+.pnpage ul li{
+    float: left;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.pnpage ul li a{
+    font-size: 15px;
+    font-weight: 500px;
+    padding: 0 5px;
+}
+    
+
+
+
+.services{
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+
+.services-title{
+    width: 100%;
+    height: 60px;
+}
+
+.services-title h1{
+    text-align: center;
+    font-family: 'Recursive', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    padding-top: 15px;
+}
+
+
+.services-content{
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 0 auto;
+
+    
+}
+
+.item1{
+    width: 80%;
+    height: 270px;
+    text-align: center;
+    float: none;
+    margin: 15px auto;
+}
+
+
+.myskill{
+    width: 100%;
+    height: 500px;
+    background: #fff;
+}
+
+
+
+.skill-box{
+    padding-left: 50px;
+}
+
+.myprofile{
+    width: 100%;
+}
+  }
+
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (max-width: 767px) {
+    .header-section{
+        width: 100%;
+        height: 70vh;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .left-content{
+        margin-top: 70px;
+      }
+
+
+    .left-content h1{
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    
+    .left-content a{
+        margin-left: 20px;
+    }
+    
+    .right-content{
+        width: 50%;
+        float: left;
+        padding: 250px 100px 0 0;
+    }
+    
+    .header-img{
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .right-content img{
+        width: 250px;
+        height: 170px;
+    }
+
+
+
+
+    
+    
+    .project-content{
+        width: 520px;
+    }
+
+    .item{
+        margin: 10px 15px;
+    }
+
+    
+.pnpage{
+    width: 100%;
+    height: 60px;
+}
+
+.pnpage ul{
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+}
+
+.pnpage ul li{
+    float: left;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.pnpage ul li a{
+    font-size: 15px;
+    font-weight: 500px;
+    padding: 0 5px;
+}
+    
+    .pnpage ul{
+        width: 85%;
+    }
+   
+
+
+    .services{
+        width: 100%;
+    }
+    
+    
+    .services-content{
+        width: 590px;
+        margin: 0 auto;
+    }
+
+
+
+
+
+.myskill{
+    width: 100%;
+    height: 500px;
+    background: #fff;
+}
+
+
+
+.skill-box{
+    padding-left: 70px;
+}
+
+.myprofile{
+    width: 100%;
+}
+
+
+
+
+
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .left-content{
+        margin-top: 70px;
+      }
+
+
+    .left-content h1{
+        font-size: 35px;
+        padding-left: 20px;
+    }
+    
+    .left-content a{
+        margin-left: 20px;
+    }
+    
+    .right-content{
+        width: 50%;
+        float: left;
+        padding: 150px 100px 0 0;
+        margin-top: 70px;
+    }
+    
+    .header-img{
+        width: 350px;
+        height: 350px;
+
+    }
+
+    .right-content img{
+        width: 350px;
+        height: 250px;
+    }
+
+
+
+
+    
+    
+    .project-content{
+        width: 590px;
+    }
+    
+    .pnpage ul{
+        width: 85%;
+    }
+   
+
+
+    .services{
+        width: 100%;
+    }
+    
+    
+    .services-content{
+        width: 590px;
+        margin: 0 auto;
+    }
+
+
+    .item1:nth-child(1){
+        box-shadow: -2px 4px 26px -2px rgba(107,107,107,1);
+    }
+    .item1:nth-child(1):hover{
+        box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    }
+    .item1:nth-child(3){
+        box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    }
+    .item1:nth-child(3):hover{
+        box-shadow: -2px 4px 26px -2px rgba(107,107,107,1);
+    }
+    .item1:nth-child(4){
+        box-shadow: -2px 4px 26px -2px rgba(107,107,107,1);
+    }
+    .item1:nth-child(4):hover{
+        box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    }
+    .item1:nth-child(5){
+        box-shadow: -2px 4px 26px -2px rgba(107,107,107,1);
+    }
+    .item1:nth-child(5):hover{
+        box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    }
+
+
+    .skill-box{
+        padding-left: 20px;
+    }
+
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .left-content h1{
+        font-size: 35px;
+        font-weight: 700;
+        padding-bottom: 30px;
+        padding-left: 20px;
+    }
+    
+    .left-content a{
+        margin-left: 20px;
+    }
+    
+    .right-content{
+        width: 50%;
+        float: left;
+        padding: 150px 100px 0 0;
+    }
+    
+    .right-content img{
+        width: 467px;
+        height: 300px;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (max-width: 1200px) {
+    .container{
+        width: 95%;
+    }
+        .left-content{
+            text-align: left;
+        }
+        
+        
+    
+}
